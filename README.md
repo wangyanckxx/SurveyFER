@@ -1,2 +1,1 @@
-Facial Expression Recognition of Static and Dynamic Emotions: A Tutorial and Review
-
+A Survey on Facial Expression Recognition of Static and Dynamic Emotions
