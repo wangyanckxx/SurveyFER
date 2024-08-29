@@ -1,3 +1,3 @@
 # A Survey on Facial Expression Recognition of Static and Dynamic Emotions
 
-## [Project Page](https://ferasurvey.github.io) | [Paper](./SurveyFER.pdf)
+## [Project Page](https://ferasurvey.github.io) | [Paper](https://arxiv.org/abs/2408.15777)
