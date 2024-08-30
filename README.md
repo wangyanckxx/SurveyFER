@@ -1,6 +1,5 @@
 # A Survey on Facial Expression Recognition of Static and Dynamic Emotions
 
-This is the official repository for our [paper](https://arxiv.org/pdf/2408.15777) entitled *“A Survey on Facial Expression Recognition of Static and Dynamic Emotions”*.
 
  [Yan Wang](https://wangyanckxx.github.io/) <sup>1</sup>,
  [Shaoqi Yan](#) <sup>1</sup>,
@@ -10,13 +9,16 @@ This is the official repository for our [paper](https://arxiv.org/pdf/2408.15777
   [Yang Chang](#) <sup>1</sup>,
   [Xinji Mai](#) <sup>1</sup>,
  [Xiping Hu](https://scholar.google.com/citations?user=Mc93YSEAAAAJ) <sup>4</sup> <br>,
- [Wenqiang Zhang](http://faet.fudan.edu.cn/17/bb/c13532a137147/page.htm) <sup>1, 2</sup>
+ [Wenqiang Zhang](https://www.fudanroilab.com/2021/07/01/WenqiangZhang.html) <sup>1, 2</sup>
  [Zhongxue Gan](#) <sup>1</sup> 
 
 <sup>1</sup> Academy for Engineering & Technology, Fudan University
 <sup>2</sup> School of Computer Science, Fudan University 
 <sup>3</sup> Shanghai Ocean University
 <sup>4</sup> Beijing Institute of Technology <br>
+ <br>
+ <br>
+This is the official repository for our [paper](https://arxiv.org/pdf/2408.15777) entitled *“A Survey on Facial Expression Recognition of Static and Dynamic Emotions”*.
 
 ## Taxonomy Overview
 
