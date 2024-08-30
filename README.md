@@ -121,7 +121,7 @@ The architecture of vision-language DFER. Figure is reproduced based on DFER-CLI
 If you find our work useful, please cite our paper:
 
 ```latex
-@article{,
+@article{wang_surveyfer_2024,
   author    = {Yan Wang, Shaoqi Yan, Yang Liu, Wei Song, Jing Liu, Yang Chang, Xinji Mai, Xiping Hu, Wenqiang Zhang, Zhongxue Gan},
   title     = {A Survey on Facial Expression Recognition of Static and Dynamic Emotions},
   journal   = {arXiv preprint arXiv:2408.15777},
