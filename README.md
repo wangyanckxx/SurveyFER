@@ -17,7 +17,6 @@
 <sup>3</sup> Shanghai Ocean University
 <sup>4</sup> Beijing Institute of Technology <br>
  <br>
- <br>
 This is the official repository for our [paper](https://arxiv.org/pdf/2408.15777) entitled *“A Survey on Facial Expression Recognition of Static and Dynamic Emotions”*.
 
 ## Taxonomy Overview
