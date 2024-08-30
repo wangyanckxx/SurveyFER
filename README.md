@@ -124,7 +124,7 @@ If you find our work useful, please cite our paper:
 @article{,
   author    = {Yan Wang, Shaoqi Yan, Yang Liu, Wei Song, Jing Liu, Yang Chang, Xinji Mai, Xiping Hu, Wenqiang Zhang, Zhongxue Gan},
   title     = {A Survey on Facial Expression Recognition of Static and Dynamic Emotions},
-  journal   = {},
+  journal   = {arXiv preprint arXiv:2408.15777},
   year      = {2024},
 }
 ```
