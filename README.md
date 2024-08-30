@@ -165,113 +165,113 @@ The architecture of vision-language DFER. Figure is reproduced based on DFER-CLI
 
 Performance (WAR) of image-based SFER and video-based DFER methods on four in-the-lab datasets：
 
-| **Method**                                              | **Year** | **Type** | **Backbone** | **MMI** | **CK+** | **Oulu-CASIA** |
-| ------------------------------------------------------- | -------- | -------- | ------------ | ------- | ------- | -------------- |
-| [IL-VGG](https://doi.org/10.1109/CVPR.2018.00392)       | 2018     | Static   | VGG-16       | 74.68   | 91.64   | 84.58          |
-| [FMPN](https://doi.org/10.1109/ICCVW.2019.00132)        | 2019     | Static   | CNNs         | 82.74   | 98.60   | -              |
-| [LDL-ALSG](https://doi.org/10.1109/TPAMI.2020.3011051)  | 2020     | Static   | ResNet-50    | 70.03   | 93.08   | 63.94          |
-| [IE-DBN](https://doi.org/10.1109/ACCESS.2020.3009927)   | 2021     | Static   | VGG-16       | -       | 96.02   | 85.21          |
-| [im-cGAN](https://doi.org/10.1016/j.patcog.2023.109157) | 2023     | Static   | GAN          | -       | 98.10   | 93.34          |
-| [Mul-DML](https://doi.org/10.1016/j.patcog.2024.110711) | 2024     | Static   | ResNet-18    | 81.57   | 98.47   | -              |
-| [STC-NLSTM](https://doi.org/10.1109/TCSVT.2018.2808918) | 2018     | Dynamic  | 3DCNN        | 84.53   | 99.80   | 93.45          |
-| [SAANet](https://doi.org/10.1109/TPAMI.2020.2977029)    | 2020     | Dynamic  | VGG-16       | -       | 97.38   | 82.41          |
-| [MGLN](https://doi.org/10.1016/j.patcog.2020.107899)    | 2020     | Dynamic  | VGG-16       | -       | 98.77   | 90.40          |
-| [MSDmodel](https://doi.org/10.1109/TCSVT.2021.3050862)  | 2021     | Dynamic  | CNN          | 89.99   | 99.10   | 87.33          |
-| [DPCNet](https://doi.org/10.1109/TCSVT.2022.3200827)    | 2022     | Dynamic  | CNN          | -       | 99.70   | -              |
-| [STACM](https://doi.org/10.1109/ICCV.2023.01297)        | 2023     | Dynamic  | CNN          | 82.71   | 99.08   | 91.25          |
+| **Method** | **Year** | **Type** | **Backbone** | **MMI** | **CK+** | **Oulu-CASIA** |
+| ---------- | -------- | -------- | ------------ | ------- | ------- | -------------- |
+| IL-VGG     | 2018     | Static   | VGG-16       | 74.68   | 91.64   | 84.58          |
+| FMPN       | 2019     | Static   | CNNs         | 82.74   | 98.60   | -              |
+| LDL-ALSG   | 2020     | Static   | ResNet-50    | 70.03   | 93.08   | 63.94          |
+| IE-DBN     | 2021     | Static   | VGG-16       | -       | 96.02   | 85.21          |
+| im-cGAN    | 2023     | Static   | GAN          | -       | 98.10   | 93.34          |
+| Mul-DML    | 2024     | Static   | ResNet-18    | 81.57   | 98.47   | -              |
+| STC-NLSTM  | 2018     | Dynamic  | 3DCNN        | 84.53   | 99.80   | 93.45          |
+| SAANet     | 2020     | Dynamic  | VGG-16       | -       | 97.38   | 82.41          |
+| MGLN       | 2020     | Dynamic  | VGG-16       | -       | 98.77   | 90.40          |
+| MSDmodel   | 2021     | Dynamic  | CNN          | 89.99   | 99.10   | 87.33          |
+| DPCNet     | 2022     | Dynamic  | CNN          | -       | 99.70   | -              |
+| STACM      | 2023     | Dynamic  | CNN          | 82.71   | 99.08   | 91.25          |
 
 Performance (WAR) of image-based SFER methods on three in-the-wild datasets：
 
-| **Task Challenges**            | **Method**                                                | **Year** | **Backbone** | **SFEW** | **RAF-DB** | **AffectNet** |
-| ------------------------------ | --------------------------------------------------------- | -------- | ------------ | -------- | ---------- | ------------- |
-| **General SFER**               | [IFSL](https://doi.org/10.1109/TPAMI.2020.3011051)        | 2020     | VGG16        | 46.50    | 76.90      | -             |
-|                                | [OAENet](https://doi.org/10.1109/TPAMI.2021.3061452)      | 2021     | VGG16        | -        | 86.50      | 58.70         |
-|                                | [MA-Net](https://doi.org/10.1109/ICCV.2021.01132)         | 2021     | ResNet18     | -        | 88.40      | 64.53         |
-|                                | [D³Net](https://doi.org/10.1109/TPAMI.2021.3081864)       | 2021     | ResNet18     | 62.16    | 88.79      | -             |
-|                                | [TransFER](https://doi.org/10.1109/TPAMI.2021.3095067)    | 2021     | ResNet50     | -        | 90.91      | 66.23         |
-|                                | [VTFF](https://doi.org/10.1109/TCSVT.2023.3245789)        | 2023     | Transformer  | -        | 88.14      | 61.85         |
-|                                | [HASs](https://doi.org/10.1109/TPAMI.2023.3231279)        | 2023     | ResNet50     | 65.14    | 91.04      | -             |
-|                                | [APViT](https://doi.org/10.1109/CVPR.2023.00129)          | 2023     | Transformer  | 61.92    | 91.98      | 66.91         |
-|                                | [POSTER](https://doi.org/10.1109/TPAMI.2023.3199651)      | 2023     | CNN-IR50     | -        | 92.05      | 67.31         |
-|                                | [MGR³Net](https://doi.org/10.1109/ICCV.2024.00098)        | 2024     | ResNet50     | -        | 91.05      | 66.36         |
-| **Disturbance-invariant SFER** | [PG-Unit](https://doi.org/10.1109/CVPR.2018.00129)        | 2018     | VGG16        | -        | 83.27      | 55.33         |
-|                                | [IDFL](https://doi.org/10.1109/ICPR.2021.00510)           | 2021     | ResNet50     | -        | 86.96      | 59.20         |
-|                                | [FDRL](https://doi.org/10.1109/TCSVT.2021.3094517)        | 2021     | ResNet18     | 62.16    | 89.47      | -             |
-|                                | [AMP-Net](https://doi.org/10.1109/TPAMI.2022.3134727)     | 2022     | ResNet50     | -        | 88.06      | 63.23         |
-|                                | [PACVT](https://doi.org/10.1109/TCSVT.2023.3187925)       | 2023     | ResNet18     | -        | 88.21      | 60.68         |
-|                                | [IPD-FER](https://doi.org/10.1109/ICCV.2023.00127)        | 2023     | ResNet18     | 58.43    | 88.89      | -             |
-|                                | [Latent-OFER](https://doi.org/10.1109/TPAMI.2023.3199886) | 2023     | ResNet18     | -        | 89.60      | -             |
-|                                | [RAC+RSL](https://doi.org/10.1109/TPAMI.2024.3231457)     | 2023     | ResNet18     | -        | 89.77      | 62.16         |
-| **Uncertainty-aware SFER**     | [SCN](https://doi.org/10.1109/TPAMI.2020.3015210)         | 2020     | ResNet18     | -        | 87.03      | 60.23         |
-|                                | [DMUE](https://doi.org/10.1109/CVPR.2021.01135)           | 2021     | ResNet18     | 57.12    | 88.76      | 62.84         |
-|                                | [RUL](https://doi.org/10.1109/TPAMI.2021.3094501)         | 2021     | ResNet18     | -        | 88.98      | -             |
-|                                | [EASE](https://doi.org/10.1109/TCSVT.2022.3206573)        | 2022     | VGG16        | 60.12    | 89.56      | 61.82         |
-|                                | [EAC](https://doi.org/10.1109/ICCV.2022.00052)            | 2022     | ResNet18     | -        | 89.99      | 65.32         |
-|                                | [LA-Net](https://doi.org/10.1109/TPAMI.2023.3231872)      | 2023     | ResNet18     | -        | 91.56      | 64.54         |
-|                                | [LNSU-Net](https://doi.org/10.1109/CVPR.2024.01234)       | 2024     | ResNet18     | -        | 89.77      | 65.73         |
-| **Weak-supervised SFER**       | [Ada-CM](https://doi.org/10.1109/ICCV.2022.00341)         | 2022     | ResNet18     | 52.43    | 84.42      | 57.42         |
-|                                | [E2E-WS](https://doi.org/10.1109/CVPR.2022.01231)         | 2022     | ResNet18     | 54.56    | 88.89      | 60.04         |
-|                                | [DR-FER](https://doi.org/10.1109/TPAMI.2023.3201167)      | 2023     | ResNet50     | -        | 90.53      | 66.85         |
-|                                | [WSCFER](https://doi.org/10.1109/CVPR.2023.00147)         | 2023     | IResNet      | -        | 91.72      | 67.71         |
-| **Cross-modal SFER**           | [CLEF](https://doi.org/10.1109/ICCV.2023.00341)           | 2023     | CLIP         | -        | 90.09      | 65.66         |
-|                                | [VTA-Net](https://doi.org/10.1109/CVPR.2024.00472)        | 2024     | ResNet-18    | -        | 72.17      | -             |
-|                                | [CEPrompt](https://doi.org/10.1109/CVPR.2024.00512)       | 2024     | ViT-B/16     | -        | 92.43      | 67.29         |
+| **Task Challenges**            | **Method** | **Year** | **Backbone** | **SFEW** | **RAF-DB** | **AffectNet** |
+| ------------------------------ | ---------- | -------- | ------------ | -------- | ---------- | ------------- |
+| **General SFER**               | IFSL       | 2020     | VGG16        | 46.50    | 76.90      | -             |
+|                                | OAENet     | 2021     | VGG16        | -        | 86.50      | 58.70         |
+|                                | MA-Net     | 2021     | ResNet18     | -        | 88.40      | 64.53         |
+|                                | D³Net      | 2021     | ResNet18     | 62.16    | 88.79      | -             |
+|                                | TransFER   | 2021     | ResNet50     | -        | 90.91      | 66.23         |
+|                                | VTFF       | 2023     | Transformer  | -        | 88.14      | 61.85         |
+|                                | HASs       | 2023     | ResNet50     | 65.14    | 91.04      | -             |
+|                                | APViT      | 2023     | Transformer  | 61.92    | 91.98      | 66.91         |
+|                                | POSTER     | 2023     | CNN-IR50     | -        | 92.05      | 67.31         |
+|                                | MGR³Net    | 2024     | ResNet50     | -        | 91.05      | 66.36         |
+| **Disturbance-invariant SFER** | PG-Unit    | 2018     | VGG16        | -        | 83.27      | 55.33         |
+|                                | IDFL       | 2021     | ResNet50     | -        | 86.96      | 59.20         |
+|                                | FDRL       | 2021     | ResNet18     | 62.16    | 89.47      | -             |
+|                                | AMP-Net    | 2022     | ResNet50     | -        | 88.06      | 63.23         |
+|                                | PACVT      | 2023     | ResNet18     | -        | 88.21      | 60.68         |
+|                                | IPD-FER    | 2023     | ResNet18     | 58.43    | 88.89      | -             |
+|                                | Latent-OFER| 2023     | ResNet18     | -        | 89.60      | -             |
+|                                | RAC+RSL    | 2023     | ResNet18     | -        | 89.77      | 62.16         |
+| **Uncertainty-aware SFER**     | SCN        | 2020     | ResNet18     | -        | 87.03      | 60.23         |
+|                                | DMUE       | 2021     | ResNet18     | 57.12    | 88.76      | 62.84         |
+|                                | RUL        | 2021     | ResNet18     | -        | 88.98      | -             |
+|                                | EASE       | 2022     | VGG16        | 60.12    | 89.56      | 61.82         |
+|                                | EAC        | 2022     | ResNet18     | -        | 89.99      | 65.32         |
+|                                | LA-Net     | 2023     | ResNet18     | -        | 91.56      | 64.54         |
+|                                | LNSU-Net   | 2024     | ResNet18     | -        | 89.77      | 65.73         |
+| **Weak-supervised SFER**       | Ada-CM     | 2022     | ResNet18     | 52.43    | 84.42      | 57.42         |
+|                                | E2E-WS     | 2022     | ResNet18     | 54.56    | 88.89      | 60.04         |
+|                                | DR-FER     | 2023     | ResNet50     | -        | 90.53      | 66.85         |
+|                                | WSCFER     | 2023     | IResNet      | -        | 91.72      | 67.71         |
+| **Cross-modal SFER**           | CLEF       | 2023     | CLIP         | -        | 90.09      | 65.66         |
+|                                | VTA-Net    | 2024     | ResNet-18    | -        | 72.17      | -             |
+|                                | CEPrompt   | 2024     | ViT-B/16     | -        | 92.43      | 67.29         |
 
 Performance (Accuracy) of 3D SFER methods on BU-3DE and Bosphorus datasets：
 
-| **Method**                                            | **Year** | **Backbone** | **Modality** | **BU-3DE**  | **Bosphorus** |
-| ----------------------------------------------------- | -------- | ------------ | ------------ | ----------- | ------------- |
-| [JPE-GAN](https://doi.org/10.1109/TPAMI.2018.2851224) | 2018     | CNN          | 2D/-         | 81.20/-     | -/-           |
-| [DA-CNN](https://doi.org/10.1109/TPAMI.2019.2898458)  | 2019     | ResNet50     | -/3D         | -/87.69     | -/-           |
-| [GAN-Int](https://doi.org/10.1109/CVPR.2021.00745)    | 2021     | VGGNet16     | 2D+3D/3D     | 88.47/83.20 | -/-           |
-| [FFNet-M](https://doi.org/10.1109/TPAMI.2021.3094483) | 2021     | VGGNet16     | 2D+3D/3D     | 89.82/87.28 | 87.65/82.86   |
-| [CMANet](https://doi.org/10.1109/ICCV.2022.00129)     | 2022     | VGGNet16     | 2D+3D/3D     | 90.24/84.03 | 89.36/81.25   |
-| [DrFER](https://doi.org/10.1109/CVPR.2024.00431)      | 2024     | ResNet18     | -/3D         | -/89.15     | -/86.77       |
+| **Method** | **Year** | **Backbone** | **Modality** | **BU-3DE** | **Bosphorus** |
+| ---------- | -------- | ------------ | ------------ | ---------- | ------------- |
+| JPE-GAN    | 2018     | CNN          | 2D/-         | 81.20/-    | -/-           |
+| DA-CNN     | 2019     | ResNet50     | -/3D         | -/87.69    | -/-           |
+| GAN-Int    | 2021     | VGGNet16     | 2D+3D/3D     | 88.47/83.20 | -/-           |
+| FFNet-M    | 2021     | VGGNet16     | 2D+3D/3D     | 89.82/87.28 | 87.65/82.86   |
+| CMANet     | 2022     | VGGNet16     | 2D+3D/3D     | 90.24/84.03 | 89.36/81.25   |
+| DrFER      | 2024     | ResNet18     | -/3D         | -/89.15    | -/86.77       |
 
 Performance (WAR) of cross-domain SFER methods on four widely-used datasets：
 
-| **Method**                                          | **Year** | **Backbone** | **Source Dataset** | **JAFFE** | **CK+** | **FER-2013** | **AffectNet** |
-| --------------------------------------------------- | -------- | ------------ | ------------------ | --------- | ------- | ------------ | ------------- |
-| [ECAN](https://doi.org/10.1109/TPAMI.2022.3183748)  | 2022     | ResNet50     | RAF-DB             | 57.28     | 79.77   | 56.46        | -             |
-| [AGRA](https://doi.org/10.1109/TPAMI.2022.3125671)  | 2022     | ResNet50     | RAF-DB             | 61.5      | 85.27   | 58.95        | -             |
-| [PASM](https://doi.org/10.1109/TPAMI.2022.3124456)  | 2022     | VGGNet16     | RAF-DB             | -         | 79.65   | 54.78        | -             |
-| [CWCST](https://doi.org/10.1109/TPAMI.2023.3206728) | 2023     | VGGNet16     | RAF-DB2.0          | 69.01     | 89.64   | 57.44        | 52.66         |
-| [DMSRL](https://doi.org/10.1109/TPAMI.2023.3210668) | 2023     | VGGNet16     | RAF-DB2.0          | 69.48     | 91.26   | 56.16        | 50.94         |
-| [CSRL](https://doi.org/10.1109/TPAMI.2023.3210668)  | 2023     | ResNet18     | RAF-DB             | 66.67     | 88.37   | 55.53        | -             |
+| **Method** | **Year** | **Backbone** | **Source Dataset** | **JAFFE** | **CK+** | **FER-2013** | **AffectNet** |
+| ---------- | -------- | ------------ | ------------------ | --------- | ------- | ------------ | ------------- |
+| ECAN       | 2022     | ResNet50     | RAF-DB             | 57.28     | 79.77   | 56.46        | -             |
+| AGRA       | 2022     | ResNet50     | RAF-DB             | 61.5      | 85.27   | 58.95        | -             |
+| PASM       | 2022     | VGGNet16     | RAF-DB             | -         | 79.65   | 54.78        | -             |
+| CWCST      | 2023     | VGGNet16     | RAF-DB2.0          | 69.01     | 89.64   | 57.44        | 52.66         |
+| DMSRL      | 2023     | VGGNet16     | RAF-DB2.0          | 69.48     | 91.26   | 56.16        | 50.94         |
+| CSRL       | 2023     | ResNet18     | RAF-DB             | 66.67     | 88.37   | 55.53        | -             |
 
 Performance (WAR/UAR) of video-based DFER methods on four widely-used datasets. TI: Time Interpolation; DS: Dynamic Sampling; GWS: Group-weighted Sampling. \*: Tunable Param (M)：
 
-| **Task Challenges**                 | **Method**                                                | **Year** | **Sample Strategies** | **Backbone**  | **Complexity (GFLOPs)** | **AFEW (WAR/UAR)** | **DFEW (WAR/UAR)** | **FERV39k (WAR/UAR)** | **MAFW (WAR/UAR)** |
-| ----------------------------------- | --------------------------------------------------------- | -------- | --------------------- | ------------- | ----------------------- | ------------------ | ------------------ | --------------------- | ------------------ |
-| **General DFER**                    | [TFEN](https://doi.org/10.1109/TPAMI.2021.3058919)        | 2021     | TI                    | ResNet-18     | -                       | -                  | 56.60/45.57        | -                     | -                  |
-|                                     | [FormerDFER](https://doi.org/10.1109/CVPR.2021.01234)     | 2021     | DS                    | Transformer   | 9.1G                    | 50.92/47.42        | 65.70/53.69        | -                     | 43.27/31.16        |
-|                                     | [EST](https://doi.org/10.1109/TPAMI.2023.3174532)         | 2023     | DS                    | ResNet-18     | N/A                     | 54.26/49.57        | 65.85/53.94        | -                     | -                  |
-|                                     | [LOGO-Former](https://doi.org/10.1109/TPAMI.2023.3178672) | 2023     | DS                    | ResNet-18     | 10.27G                  | -                  | 66.98/54.21        | 48.13/38.22           | -                  |
-|                                     | [MSCM](https://doi.org/10.1109/CVPR.2023.00489)           | 2023     | DS                    | ResNet-18     | 8.11G                   | 56.40/52.30        | 70.16/58.49        | -                     | -                  |
-|                                     | [SFT](https://doi.org/10.1109/TPAMI.2024.3178921)         | 2024     | DS                    | ResNet-18     | 17.52G                  | 55.00/50.14        | -                  | 47.80/35.16           | 47.44/33.39        |
-|                                     | [CDGT](https://doi.org/10.1109/CVPR.2024.00561)           | 2024     | DS                    | Transformer   | 8.3G                    | 55.68/51.57        | 70.07/59.16        | 50.80/41.34           | -                  |
-|                                     | [LSGTNet](https://doi.org/10.1109/TPAMI.2024.3180426)     | 2024     | DS                    | ResNet-18     | -                       | -                  | 72.34/61.33        | 51.31/41.30           | -                  |
-| **Sampling-based DFER**             | [EC-STFL](https://doi.org/10.1109/CVPR.2020.01112)        | 2020     | TI                    | ResNet-18     | 8.32G                   | 53.26/-            | 54.72/43.60        | -                     | -                  |
-|                                     | [DPCNet](https://doi.org/10.1109/TPAMI.2022.3090921)      | 2022     | GWS                   | ResNet-50     | 9.52G                   | 51.67/47.86        | 66.32/57.11        | -                     | -                  |
-|                                     | [FreqHD](https://doi.org/10.1109/TPAMI.2023.3212345)      | 2023     | FreqHD                | ResNet-18     | -                       | -                  | 54.98/44.24        | 43.93/32.24           | -                  |
-|                                     | [M3DFEL](https://doi.org/10.1109/TPAMI.2023.3227845)      | 2023     | DS                    | R3D18         | 1.66G                   | -                  | 69.25/56.10        | 47.67/35.94           | -                  |
-| **Expression Intensity-aware DFER** | [CEFL-Net](https://doi.org/10.1109/TPAMI.2022.3109845)    | 2022     | Clip-based            | ResNet-18     | -                       | 53.98/-            | 65.35/-            | -                     | -                  |
-|                                     | [NR-DFERnet](https://doi.org/10.1109/TPAMI.2023.3124091)  | 2023     | DS                    | ResNet-18     | 6.33G                   | 53.54/48.37        | 68.19/54.21        | -                     | -                  |
-|                                     | [GCA+IAL](https://doi.org/10.1109/TPAMI.2023.3141129)     | 2023     | DS                    | ResNet-18     | 9.63G                   | -                  | 69.24/55.71        | 48.54/35.82           | -                  |
-| **Static to Dynamic FER**           | [S2D](https://doi.org/10.1109/TPAMI.2023.3198657)         | 2023     | DS                    | ViT-B/16      | -                       | -                  | 76.03/61.82        | 52.56/41.28           | 57.37/41.86        |
-|                                     | [(AEN)](https://doi.org/10.1109/CVPR.2023.00678)          | 2023     | DS                    | Transformer   | -                       | 54.64/50.88        | 69.37/56.66        | 47.88/38.18           | -                  |
-| **Multi-modal DFER**                | [T-ESFL](https://doi.org/10.1109/TPAMI.2022.3091254)      | 2022     | DS                    | Transformer   | -                       | -                  | -                  | -                     | 48.18/33.28        |
-|                                     | [T-MEP](https://doi.org/10.1109/CVPR.2023.00542)          | 2023     | DS                    | -             | 6G                      | 52.96/50.22        | 68.85/57.16        | -                     | 52.85/39.37        |
-|                                     | [OUS](https://doi.org/10.1109/TPAMI.2024.3182374)         | 2024     | DS                    | CLIP          | -                       | 52.96/50.22        | 68.85/57.16        | -                     | 52.85/39.37        |
-|                                     | [MMA-DFER](https://doi.org/10.1109/CVPR.2024.01234)       | 2024     | DS                    | Transformer   | -                       | -                  | 77.51/67.01        | -                     | 58.52/44.11        |
-| **Self-supervised DFER**            | [MAE-DFER](https://doi.org/10.1109/TPAMI.2023.3174532)    | 2023     | DS                    | ResNet-18     | 50G                     | -                  | 74.43/63.41        | 52.07/43.12           | 54.31/41.62        |
-|                                     | [HiCMAE](https://doi.org/10.1109/TPAMI.2024.3187689)      | 2024     | DS                    | ResNet-18     | 32G                     | -                  | 73.10/61.92        | -                     | 54.84/42.10        |
-| **Visual-Language DFER**            | [CLIPER](https://doi.org/10.1109/TPAMI.2023.3145632)      | 2023     | DS                    | CLIP-ViT-B/16 | 88M\*                   | 56.43/52.00        | 70.84/57.56        | 51.34/41.23           | -                  |
-|                                     | [DFER-CLIP](https://doi.org/10.1109/CVPR.2023.01231)      | 2023     | DS                    | CLIP-ViT-B/32 | 92G                     | -                  | 71.25/59.61        | 51.65/41.27           | 52.55/39.89        |
-|                                     | [EmoCLIP](https://doi.org/10.1109/TPAMI.2024.3181789)     | 2024     | DS                    | CLIP-ViT-B/32 | -                       | -                  | 62.12/58.04        | 36.18/31.41           | 41.46/34.24        |
-|                                     | [A³lign-DFER](https://doi.org/10.1109/CVPR.2024.01456)    | 2024     | DS                    | CLIP-ViT-L/14 | -                       | -                  | 74.20/64.09        | 51.77/41.87           | 53.22/42.07        |
-|                                     | [UMBEnet](https://doi.org/10.1109/TPAMI.2024.3183745)     | 2024     | DS                    | CLIP          | -                       | -                  | 73.93/64.55        | 52.10/44.01           | 57.25/46.92        |
-|                                     | [FineCLIPER](https://doi.org/10.1109/TPAMI.2024.3189421)  | 2024     | DS                    | CLIP-ViT-B/16 | 20M\*                   | -                  | 76.21/65.98        | 53.98/45.22           | 56.91/45.01        |
+| **Task Challenges**                 | **Method**  | **Year** | **Sample Strategies** | **Backbone**  | **Complexity (GFLOPs)** | **AFEW (WAR/UAR)** | **DFEW (WAR/UAR)** | **FERV39k (WAR/UAR)** | **MAFW (WAR/UAR)** |
+| ----------------------------------- | ----------- | -------- | --------------------- | ------------- | ----------------------- | ------------------ | ------------------ | --------------------- | ------------------ |
+| **General DFER**                    | TFEN        | 2021     | TI                    | ResNet-18     | -                       | -                  | 56.60/45.57        | -                     | -                  |
+|                                     | FormerDFER  | 2021     | DS                    | Transformer   | 9.1G                    | 50.92/47.42        | 65.70/53.69        | -                     | 43.27/31.16        |
+|                                     | EST         | 2023     | DS                    | ResNet-18     | N/A                     | 54.26/49.57        | 65.85/53.94        | -                     | -                  |
+|                                     | LOGO-Former | 2023     | DS                    | ResNet-18     | 10.27G                  | -                  | 66.98/54.21        | 48.13/38.22           | -                  |
+|                                     | MSCM        | 2023     | DS                    | ResNet-18     | 8.11G                   | 56.40/52.30        | 70.16/58.49        | -                     | -                  |
+|                                     | SFT         | 2024     | DS                    | ResNet-18     | 17.52G                  | 55.00/50.14        | -                  | 47.80/35.16           | 47.44/33.39        |
+|                                     | CDGT        | 2024     | DS                    | Transformer   | 8.3G                    | 55.68/51.57        | 70.07/59.16        | 50.80/41.34           | -                  |
+|                                     | LSGTNet     | 2024     | DS                    | ResNet-18     | -                       | -                  | 72.34/61.33        | 51.31/41.30           | -                  |
+| **Sampling-based DFER**             | EC-STFL     | 2020     | TI                    | ResNet-18     | 8.32G                   | 53.26/-            | 54.72/43.60        | -                     | -                  |
+|                                     | DPCNet      | 2022     | GWS                   | ResNet-50     | 9.52G                   | 51.67/47.86        | 66.32/57.11        | -                     | -                  |
+|                                     | FreqHD      | 2023     | FreqHD                | ResNet-18     | -                       | -                  | 54.98/44.24        | 43.93/32.24           | -                  |
+|                                     | M3DFEL      | 2023     | DS                    | R3D18         | 1.66G                   | -                  | 69.25/56.10        | 47.67/35.94           | -                  |
+| **Expression Intensity-aware DFER** | CEFL-Net    | 2022     | Clip-based            | ResNet-18     | -                       | 53.98/-            | 65.35/-            | -                     | -                  |
+|                                     | NR-DFERnet  | 2023     | DS                    | ResNet-18     | 6.33G                   | 53.54/48.37        | 68.19/54.21        | -                     | -                  |
+|                                     | GCA+IAL     | 2023     | DS                    | ResNet-18     | 9.63G                   | -                  | 69.24/55.71        | 48.54/35.82           | -                  |
+| **Static to Dynamic FER**           | S2D         | 2023     | DS                    | ViT-B/16      | -                       | -                  | 76.03/61.82        | 52.56/41.28           | 57.37/41.86        |
+|                                     | AEN         | 2023     | DS                    | Transformer   | -                       | 54.64/50.88        | 69.37/56.66        | 47.88/38.18           | -                  |
+| **Multi-modal DFER**                | T-ESFL      | 2022     | DS                    | Transformer   | -                       | -                  | -                  | -                     | 48.18/33.28        |
+|                                     | T-MEP       | 2023     | DS                    | -             | 6G                      | 52.96/50.22        | 68.85/57.16        | -                     | 52.85/39.37        |
+|                                     | OUS         | 2024     | DS                    | CLIP          | -                       | 52.96/50.22        | 68.85/57.16        | -                     | 52.85/39.37        |
+|                                     | MMA-DFER    | 2024     | DS                    | Transformer   | -                       | -                  | 77.51/67.01        | -                     | 58.52/44.11        |
+| **Self-supervised DFER**            | MAE-DFER    | 2023     | DS                    | ResNet-18     | 50G                     | -                  | 74.43/63.41        | 52.07/43.12           | 54.31/41.62        |
+|                                     | HiCMAE      | 2024     | DS                    | ResNet-18     | 32G                     | -                  | 73.10/61.92        | -                     | 54.84/42.10        |
+| **Visual-Language DFER**            | CLIPER      | 2023     | DS                    | CLIP-ViT-B/16 | 88M\*                   | 56.43/52.00        | 70.84/57.56        | 51.34/41.23           | -                  |
+|                                     | DFER-CLIP   | 2023     | DS                    | CLIP-ViT-B/32 | 92G                     | -                  | 71.25/59.61        | 51.65/41.27           | 52.55/39.89        |
+|                                     | EmoCLIP     | 2024     | DS                    | CLIP-ViT-B/32 | -                       | -                  | 62.12/58.04        | 36.18/31.41           | 41.46/34.24        |
+|                                     | A³lign-DFER | 2024     | DS                    | CLIP-ViT-L/14 | -                       | -                  | 74.20/64.09        | 51.77/41.87           | 53.22/42.07        |
+|                                     | UMBEnet     | 2024     | DS                    | CLIP          | -                       | -                  | 73.93/64.55        | 52.10/44.01           | 57.25/46.92        |
+|                                     | FineCLIPER  | 2024     | DS                    | CLIP-ViT-B/16 | 20M\*                   | -                  | 76.21/65.98        | 53.98/45.22           | 56.91/45.01        |
 
 ## Citation
 
